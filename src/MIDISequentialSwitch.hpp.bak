@@ -1,0 +1,34 @@
+
+#pragma once
+
+#include "rack.hpp"
+
+using namespace rack;
+
+extern Plugin* pluginInstance;
+
+struct MIDISequentialSwitch : Module {
+    enum ParamIds {
+        NUM_PARAMS
+    };
+    enum InputIds {
+        MIDI_INPUT,
+        NUM_INPUTS = 17 // 16 inputs plus 1 MIDI input
+    };
+    enum OutputIds {
+        OUTPUT,
+        NUM_OUTPUTS
+    };
+    enum LightIds {
+        INPUT_LIGHTS,
+        NUM_LIGHTS = 16 // One light per input
+    };
+
+    MIDISequentialSwitch() {
+        config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
+    }
+
+    void process(const ProcessArgs& args) override;
+
+    int selectedInput = 0; // Default to first input
+};

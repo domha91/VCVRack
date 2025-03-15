@@ -1,0 +1,34 @@
+{
+  "slug": "dominic-studio_RackPlugin",
+  "name": "Rack Plugin",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Dominic.studio",
+  "author": "Dominic Harrison",
+  "authorEmail": "dominicstudiopsalms98@gmail.com",
+  "authorUrl": "https://dominic.studio",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MIDISequentialSwitch",
+      "name": "MIDI Sequential Switch",
+      "description": "A sequential switch controlled by MIDI notes.",
+      "tags": [
+        "sequencer",
+        "midi"
+      ]
+    },
+    {
+      "slug": "beatSlicer",
+      "name": "beatSlicer",
+      "description": "A beatslicer module with quantiser for quick loop-sketch workflow",
+      "tags": [
+        "sequencer"
+      ]
+    }
+  ]
+}

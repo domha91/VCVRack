@@ -1,0 +1,32 @@
+#pragma once
+
+#include "rack.hpp"
+#include "MIDISequentialSwitch.hpp"
+
+using namespace rack;
+
+struct MIDISequentialSwitchWidget : ModuleWidget {
+    MIDISequentialSwitchWidget(MIDISequentialSwitch* module) {
+        setModule(module);
+        setPanel(APP->window->loadSvg(asset::plugin(pluginInstance, "res/MIDISequentialSwitch.svg")));
+
+        // Add screws
+        addChild(createWidget<ScrewSilver>(Vec(RACK_GRID_WIDTH, 0)));
+        addChild(createWidget<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, 0)));
+        addChild(createWidget<ScrewSilver>(Vec(RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
+        addChild(createWidget<ScrewSilver>(Vec(box.size.x - 2 * RACK_GRID_WIDTH, RACK_GRID_HEIGHT - RACK_GRID_WIDTH)));
+
+        // Add inputs
+        for (int i = 0; i < 16; i++) {
+            addInput(createInput<PJ301MPort>(Vec(10, 40 + i * 30), module, MIDISequentialSwitch::NUM_INPUTS + i));
+            addChild(createLight<MediumLight<RedLight>>(Vec(40, 45 + i * 30), module, MIDISequentialSwitch::INPUT_LIGHTS + i));
+        }
+
+        // Add MIDI input
+        addInput(createInput<PJ301MPort>(Vec(10, 540), module, MIDISequentialSwitch::MIDI_INPUT));
+
+        // Add output
+        addOutput(createOutput<PJ301MPort>(Vec(10, 580), module, MIDISequentialSwitch::OUTPUT));
+    }
+};
+

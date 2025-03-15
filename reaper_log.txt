@@ -1,0 +1,233 @@
+LC_NUMERIC / LANG is set to 'en_GB.UTF-8', overriding LC_NUMERIC environment to POSIX
+DrivenByMoss: Loading project settings.
+DrivenByMoss: Project settings loaded.
+DrivenByMoss: Creating JVM.
+VCV Rack: RackPlugin::RackPlugin()
+VCV Rack: Checking systemDir /home/domha91/.local/share/VCV/Rack2Pro
+VCV Rack: Found systemDir /home/domha91/.local/share/VCV/Rack2Pro
+VCV Rack: Loading library /home/domha91/.local/share/VCV/Rack2Pro/libRack.so
+VCV Rack: Initializing library
+VCV Rack: Initialized library
+VCV Rack: Creating context
+VCV Rack: Loading template patch
+/home/domha91/Desktop/Protoverb.log 
+no deskTopFile found 
+preset=initialize
+Trying setUniqueID(1969770582)...
+setUniqueID (1969770582)
+Saving registration code to /home/domha91/.u-he/Protoverb/Support/com.u-he.Protoverb.user.txt
+failed to open /home/domha91/.u-he/Protoverb/Support/com.u-he.Protoverb.user.txt to read registration key
+HOST 'REAPER'
+API 'VST2'
+Starting REVISION 4105
+DelayNetWorks random 637.49 after 788 rounds
+Using vector extension SSE3
+new instance of  AM_PreferencesAudio created for Protoverb # 1
+Structure 0 - 5
+HW8
+Wide
+loadPreferences() - Protoverb
+void AM_AudioMan::createMidiPrograms()
+
+
+Before, From State Meta: 
+
+
+
+
+return stateInfo State Meta: 
+
+
+Preset from 'Protoverb'
+Params: press button
+AM_DelayNetWorks::setParameterComplex
+Structure 0 - 0
+HHD
+Wide
+Seed 0
+OMG... need to reseed
+DoublettesInRange 0.00
+collisionLaw ran 15 tests
+No Bridges
+stateInfoLevel level back to 0
+AM_AudioMan::reset()
+getMidiAssignPath(): /support/com.u-he.Protoverb.midiassign.txt
+READING midiAssignFile
+
+// Global MidiCC Map
+numFounds = 3
+Error: was not able to parse line: Global MidiCC Map
+
+
+numFounds = 0
+Error: was not able to parse line: 
+
+
+numFounds = 0
+Error: was not able to parse line: 
+DEFAULT FILE 1 7E9011D
+Warning! AudioPreferenceExtractor::setPreference didn't find matching preference for "NKS Colour Fit"
+Warning! AudioPreferenceExtractor::setPreference didn't find matching preference for "NKS Auto Map"
+AM_AudioMan::changePlugInLatency( 0 ) -> 16
+
+
+Before, From State Meta: 
+
+
+
+
+return stateInfo State Meta: 
+
+
+Preset from 'Protoverb'
+Params: press button
+AM_DelayNetWorks::setParameterComplex
+Structure 0 - 0
+HHD
+Wide
+Seed 0
+OMG... need to reseed
+DoublettesInRange 0.00
+collisionLaw ran 19257 tests
+No Bridges
+stateInfoLevel level back to 0
+AM_AudioMan::reset()
+LATENCY Protoverb:16
+AM_VST_base::suspend ()
+done AM_VST_base::suspend ()
+ALERT: can't find param VCC KeyP
+AM_VST_base::getSizedWidth GUIScale 1.00 -> 1200
+AM_AudioMan::reset()
+AM_VST_base::getVendorString (char* text)
+/ AM_VST_base::getVendorString (char* text)
+AM_VST_base::resume ()
+AM_AudioMan::reset()
+done AM_VST_base::resume ()
+
+
+Before, From State Meta: 
+
+
+
+
+return stateInfo State Meta: 
+
+
+Preset from 'Protoverb'
+Params: FGNRZ38S-J?0DUXS
+AM_DelayNetWorks::setParameterComplex
+Structure 0 - 5
+HW8
+Wide
+Seed -1194128537
+CollisionSecondOrder
+maxCollisions 1
+maxCollisions 2
+maxCollisions 8
+maxCollisions 17
+maxCollisions 19
+maxCollisions 31
+maxCollisions 45
+maxCollisions 60
+maxCollisions 82
+maxCollisions 95
+maxCollisions 128
+maxCollisions 150
+maxCollisions 170
+maxCollisions 215
+maxCollisions 237
+maxCollisions 275
+maxCollisions 307
+maxCollisions 354
+maxCollisions 392
+maxCollisions 451
+maxCollisions 481
+maxCollisions 543
+maxCollisions 590
+maxCollisions 655
+maxCollisions 709
+maxCollisions 791
+maxCollisions 853
+maxCollisions 910
+maxCollisions 980
+maxCollisions 1082
+maxCollisions 1159
+maxCollisions 1217
+maxCollisions 1329
+maxCollisions 1416
+maxCollisions 1484
+maxCollisions 1599
+maxCollisions 1704
+maxCollisions 1804
+maxCollisions 1942
+maxCollisions 2046
+maxCollisions 2140
+maxCollisions 2273
+maxCollisions 2394
+maxCollisions 2559
+maxCollisions 2700
+maxCollisions 2816
+maxCollisions 2937
+maxCollisions 3095
+maxCollisions 3208
+maxCollisions 3410
+maxCollisions 3531
+maxCollisions 3701
+maxCollisions 3921
+maxCollisions 4023
+maxCollisions 4217
+maxCollisions 4424
+maxCollisions 4594
+maxCollisions 4759
+maxCollisions 5016
+maxCollisions 5217
+maxCollisions 5384
+maxCollisions 5561
+maxCollisions 5761
+maxCollisions 6029
+collisionLaw ran 34659 tests
+Alias 16 -> 32 | 24 -> 40
+Alias 32 -> 48 | 40 -> 56
+Alias 56 -> 16 | 48 -> 24
+stateInfoLevel level back to 0
+AM_AudioMan::reset()
+AM_Message_RenderModeChanged! 0
+VCV Rack: attached(0x4c00141)
+sending latency to host... 16
+Protoverb VST telling REAPER about 16 samples latency
+VCV Rack: attached() end
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x000079e820d8df24, pid=124055, tid=124292
+#
+# JRE version: OpenJDK Runtime Environment Temurin-17.0.10+7 (17.0.10+7) (build 17.0.10+7)
+# Java VM: OpenJDK 64-Bit Server VM Temurin-17.0.10+7 (17.0.10+7, mixed mode, tiered, compressed oops, compressed class ptrs, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libRack.so+0x38df24]  rack::app::ParamWidget::getParamQuantity()+0x14
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E" (or dumping to /home/domha91/.config/REAPER/UserPlugins/core.124055)
+#
+# An error report file with more information is saved as:
+# /home/domha91/.config/REAPER/UserPlugins/hs_err_pid124055.log
+[thread 124167 also had an error]
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/adoptium/adoptium-support/issues
+#
+DrivenByMoss: Registering CPP callbacks.
+DrivenByMoss: Starting application.
+DrivenByMoss: JVM startup finished.
+DrivenByMoss: Creating surface.
+DrivenByMoss: Surface created.
+DrivenByMoss: Saving project settings.
+DrivenByMoss: Project settings saved.
+jack: created client
+jack: setting TIME_CRITICAL = 81
+jack: activated client
+DrivenByMoss: Loading project settings.
+DrivenByMoss: Project settings loaded.
+DrivenByMoss: Processing project parameters.
+DrivenByMoss: Processing project parameters done.
+DrivenByMoss: Saving project settings.
+DrivenByMoss: Project settings saved.
